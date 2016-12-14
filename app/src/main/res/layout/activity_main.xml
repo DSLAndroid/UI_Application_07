@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--题目-->
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android内核是基于什么系统？"
+        android:textSize="24sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <RadioButton
+        android:id="@+id/radiobutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Windows"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mac os"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linux"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="嵌入式系统"
+        />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginTop="50dp"
+        android:text="进入下一项测试"
+        />
+</LinearLayout>

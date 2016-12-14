@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--题目-->
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义单选按钮样式？"
+        android:textSize="24sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <RadioButton
+        android:id="@+id/radiobutton31"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:text="Windows"
+        android:drawableLeft="@drawable/radiostlye"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton32"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:text="Mac os"
+        android:drawableLeft="@drawable/radiostlye"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton33"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableLeft="@drawable/radiostlye"
+        android:text="Linux"
+        />
+    <RadioButton
+        android:id="@+id/radiobutton34"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:text="嵌入式系统"
+        android:drawableLeft="@drawable/radiostlye"
+        />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button33"
+        android:layout_marginTop="50dp"
+        android:text="退出"
+        />
+</LinearLayout>
